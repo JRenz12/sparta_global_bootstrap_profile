@@ -1,0 +1,53 @@
+.screenshot {
+  padding-top:30px;
+  height: 200px;
+  width: 300px;
+}
+
+.tile {
+	display: inline-block;
+	width: 30%;
+	margin-right: 3%;
+	margin-top: 25px;
+	text-align: center;
+	border: 2px solid #E13A63;
+	box-sizing: border-box;
+  min
+}
+
+.tile img	{
+	display: block;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px){
+
+  .main-content{
+    clear: both;
+  	display: block;
+  	padding: 0;
+  	margin: 0;
+  }
+
+  .tile {
+    text-align: center;
+  	display: block;
+  	padding: 2%;
+    margin-left: 10%;
+    width: 80%;
+    margin: 0 auto;
+    }
+    
+    .screenshot{
+      clear: both;
+      display: block;
+      padding-right: 20%;
+    }
+
+    h1,h2, p{
+      text-align: center;
+    }
+    body{
+      width: 100%;
+      clear: both;
+}
